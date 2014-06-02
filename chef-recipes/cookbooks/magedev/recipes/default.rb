@@ -169,6 +169,11 @@ execute "restart mysql" do
         action :run
 end
 
+execute "enable modrewrite" do
+        command "a2enmod rewrite"
+        action :run
+end
+
 execute "restart apache" do
         command "/etc/init.d/httpd restart"
         action :run
