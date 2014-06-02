@@ -58,6 +58,11 @@ execute "install nodejs, npm" do
 	action :run
 end
 
+execute "install mongo for xhgui" do
+        command "yum -y install mongodb-server mongodb php-pecl-mongo --enablerepo=remi,remi-php55"
+        action :run
+end
+
 execute "install sass" do
 	command "gem install sass"
 	action :run
