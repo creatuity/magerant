@@ -1,0 +1,5 @@
+.vagrant
+www-data/magento
+.
+sqldumps/*
+.idea

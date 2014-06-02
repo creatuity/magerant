@@ -1,0 +1,3 @@
+[submodule "chef-recipes/cookbooks/mysqldump"]
+	path = chef-recipes/cookbooks/mysqldump
+	url = https://github.com/smnmxn/chef-mysqldump.git

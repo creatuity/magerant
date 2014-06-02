@@ -1,0 +1,6 @@
+$gitRepo = "<git URL including protocol to your Magento site>"
+$mysql_source_dbname = "<database name>"
+$mysql_source_dbname_wp = "<wordpress database name>"
+$mysql_source_host = "<database IP or hostname>"
+$mysql_source_user = "<mysql user>"
+$mysql_source_password  = "<mysql password>"
