@@ -49,7 +49,7 @@ execute "upgrade to php55" do
 end
 
 execute "install a few assorted PHP packages" do
-	command "yum -y install php-phpunit-DbUnit php-phpunit-PHP-TokenStream php-channel-pdepend php-channel-phpdoc php-channel-phpmd php-channel-phpqatools php-channel-phpseclib php-channel-phpunit php-pear php-pear-PhpDocumentor php-pecl-xdebug php-phpmd-PHP-PMD php-phpunit-PHP-CodeBrowser php-phpunit-PHP-CodeCoverage php-phpunit-PHP-Invoker php-phpunit-PHP-Timer php-phpunit-PHPUnit php-phpunit-PHPUnit-MockObject php-phpunit-PHPUnit-Story php-phpunit-Version php-phpunit-exporter php-phpunit-phpcpd php-phpunit-phpdcd php-phpunit-phploc php-pdepend-PHP-Depend php-pdo php-mcrypt php-gd php-ZendFramework-Db-Adapter-Pdo-Mysql --enablerepo=remi,remi-php55"
+	command "yum -y install xhprof php-phpunit-DbUnit php-phpunit-PHP-TokenStream php-channel-pdepend php-channel-phpdoc php-channel-phpmd php-channel-phpqatools php-channel-phpseclib php-channel-phpunit php-pear php-pear-PhpDocumentor php-pecl-xdebug php-phpmd-PHP-PMD php-phpunit-PHP-CodeBrowser php-phpunit-PHP-CodeCoverage php-phpunit-PHP-Invoker php-phpunit-PHP-Timer php-phpunit-PHPUnit php-phpunit-PHPUnit-MockObject php-phpunit-PHPUnit-Story php-phpunit-Version php-phpunit-exporter php-phpunit-phpcpd php-phpunit-phpdcd php-phpunit-phploc php-pdepend-PHP-Depend php-pdo php-mcrypt php-gd php-ZendFramework-Db-Adapter-Pdo-Mysql --enablerepo=remi,remi-php55"
 	action :run
 end
 
