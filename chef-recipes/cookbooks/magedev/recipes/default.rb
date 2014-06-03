@@ -174,6 +174,11 @@ execute "enable modrewrite" do
         action :run
 end
 
+execute "allow htaccess files to control modrewrite" do
+        command "sed -ie 's/AllowOverride None/AllowOverride All/g' /etc/httpd/sites-enabled/000-default"
+        action :run
+end
+
 execute "restart apache" do
         command "/etc/init.d/httpd restart"
         action :run
